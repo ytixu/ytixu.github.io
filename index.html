@@ -1,5 +1,13 @@
 <html>
 <head>
+	<link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
 	<title>Yi Tian Xu</title>
 <style>
 body
@@ -8,9 +16,15 @@ body
     color: #444444;
     font-size: 12pt;
     background-color: #FAFAFA;
-    margin: 10% 20%;
+    margin: 5% 20% 10% 20%;
 }
 
+a, a:link, a:visited {
+	color: #444444;
+}
+a:hover{
+	color: #999999;
+}
 </style>
 
 </head>
@@ -18,11 +32,34 @@ body
 <body>
 
 <center>
+	<img src="avatar.jpg" width="50%" style="border-radius: 50%;">
+
 	<H1>Yi Tian Xu</H1>
-	Researcher @ Samsung AI Center<br>
-	Master degree in Computer Science from McGill University
 </center>
 
+
+<H2>Projects</H2>
+
+<H3>Pattern completion</H3>
+<p>This project relates to the work I did in my master thesis at McGill University. We can look at certain learning problems as associating the partial input signal pattern to the larger (or complete) signal pattern learned by the agent. In this view, we can not only retrieve the best output to the task in question but also other information related to the input signal.</p>
+
+<p>So far, this idea has been tested on Human3.6M dataset in <a target="_blank" href="https://ieeexplore.ieee.org/document/8781631">this paper</a>, and on MNIST dataset in <a target="_blank" href="https://github.com/ytixu/MNIST-via-PCL">this repo</a>.</p>
+
+<H3>Respiration sensing using WiFi</H3>
+<p>WiFi signal reflected off a static human chest has a periodic pattern that is correlated with the respiration rate. With sophisticated signal processing tools and data-driven classification, we can push the sensing accuracy in a noisy environment to a higher level. This project is done at Samsung AI Center, and can be viewed in <a target="_blank" href="https://ieeexplore.ieee.org/document/9341474">this paper</a>.</p>
+
+<H3>Demo</H3>
+<ul>
+	<li>Kinova robot arm cutting a cake: this was to make a suprise video for a professor during my master studies. The underlying algorithm was simply to replay a recorded trajectory. I chose a spatula as the cutting tool for safety. Here is a <a href='projects/cut-cake-robot.gif'>blooper</a> played at 10x the actual speed.
+	</li>
+</ul>
+
+<H3>Artworks</H3>
+<ul>
+	<li><a href='drawings'>Drawings</a></li>
+	<li><a href='https://www.youtube.com/watch?v=r5MemOhsJbg&t=14s' target="_blank">Experimental music</a></li>
+	<li><a href='writings/poems.html' target="_blank">Poems</a></li>
+</ul>
 
 <H2>Publications</H2>
 
@@ -43,6 +80,13 @@ body
 	</li>
 </ul>
 
-
+<center style="padding-top:10%;">
+	<br>
+	<a href="https://github.com/ytixu" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+	<span style="padding:0 3%"></span>
+	<a href="https://scholar.google.com/citations?user=cTnAMu4AAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a>
+	<span style="padding:0 3%"></span>
+	<a href="https://www.linkedin.com/in/yitianxu/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+</center>
 </body>
 </html>
